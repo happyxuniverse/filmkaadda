@@ -1979,7 +1979,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
                 InlineKeyboardButton('Vɪᴇᴡ Pʀᴇᴍɪᴜᴍ Pʟᴀɴ', callback_data='subscription')
             ],[
-                InlineKeyboardButton('Cᴏɴᴛᴀᴄᴛ Oᴡɴᴇʀ', url='http://t.me/Unknown_Support_Bot')
+                InlineKeyboardButton('Cᴏɴᴛᴀᴄᴛ Oᴡɴᴇʀ', url='http://t.me/filmmakerhappy')
             ]]
         else:
             buttons = [[
@@ -1987,7 +1987,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
                 InlineKeyboardButton('Vɪᴇᴡ Pʀᴇᴍɪᴜᴍ Pʟᴀɴ', callback_data='subscription')
             ],[
-                InlineKeyboardButton('Cᴏɴᴛᴀᴄᴛ Oᴡɴᴇʀ', url='http://t.me/Unknown_Support_Bot')
+                InlineKeyboardButton('Cᴏɴᴛᴀᴄᴛ Oᴡɴᴇʀ', url='http://t.me/filmmakerhappy')
             ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
@@ -2092,7 +2092,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "hey":
         btn = [[
-            InlineKeyboardButton('Send Payment Screenshot', url="t.me/Unknown_Support_Bot") 
+            InlineKeyboardButton('Send Payment Screenshot', url="http://t.me/filmmakerhappy") 
         ],[
             InlineKeyboardButton('Close', callback_data='close_data')
         ]]
