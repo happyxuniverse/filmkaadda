@@ -233,7 +233,8 @@ Nᴀᴍᴇ - {}"""
 
     CAPTION = """<b>{file_caption}</b>
     
-@FilmKaAddaOfficial"""
+@FilmKaAddaOfficial
+@FilmKaAdda_2"""
 
     IMDB_TEMPLATE_TXT = """
 <b>Query: {qurey}
