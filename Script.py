@@ -35,7 +35,7 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
  ╭━━━━━━━━╮
     Premium Plans
-  • ₹5 - 1 day 
+  • ₹10 - 1 day 
   • ₹19 - 1 Week 
   • ₹29 - 1 Month
   • ₹79 - 3 Months
@@ -43,7 +43,7 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
   • ₹269 - 1 Year
  ╰━━━━━━━━╯
 
- UPI ID - <code>unknownbolte@ybl</code>
+ UPI ID - <code>happykumarr@ybl</code>
 
  Premium Features:
  
@@ -231,9 +231,9 @@ Nᴀᴍᴇ - {}"""
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<b>{file_name}</b>
+    CAPTION = """<b>{file_caption}</b>
     
-@UnknownCinema"""
+@FilmKaAddaOfficial"""
 
     IMDB_TEMPLATE_TXT = """
 <b>Query: {qurey}
