@@ -614,7 +614,7 @@ async def check_verification(bot, userid):
     now = datetime.now(tz)
     curr_time = now.strftime("%H:%M:%S")
     hour1, minute1, second1 = curr_time.split(":")
-    curr_time = time(int(hour1=1), int(minute1), int(second1))
+    curr_time = time(int(hour1), int(minute1), int(second1))
     status = await get_verify_status(user.id)
     date_var = status["date"]
     time_var = status["time"]
