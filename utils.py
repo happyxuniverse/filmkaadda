@@ -599,7 +599,7 @@ async def verify_user(bot, userid, token):
         await bot.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(user.id, user.mention))
     TOKENS[user.id] = {token: True}
     tz = pytz.timezone('Asia/Kolkata')    
-    date_var = datetime.now(tz)+timedelta(hours=12)
+    date_var = datetime.now(tz)+timedelta(hours=1)
     temp_time = date_var.strftime("%H:%M:%S")
     date_var, time_var = str(date_var).split(" ")
     await update_verify_status(user.id, date_var, temp_time)
@@ -621,7 +621,7 @@ async def check_verification(bot, userid):
     years, month, day = date_var.split('-')
     comp_date = date(int(years), int(month), int(day))
     hour, minute, second = time_var.split(":")
-    comp_time = time(int(hour=1), int(minute), int(second))
+    comp_time = time(int(hour), int(minute), int(second))
     if comp_date<today:
         return False
     else:
