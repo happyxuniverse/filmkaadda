@@ -20,7 +20,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '25902975'))
 API_HASH = environ.get('API_HASH', 'bf9ebb30c8c6c4745031de8452d06025')
-BOT_TOKEN = environ.get('BOT_TOKEN', "6489451868:AAHDOOqSwasOJg51swedxZRKxwoSTrEgYJU")
+BOT_TOKEN = environ.get('BOT_TOKEN', "7443387952:AAGYCs7VXtpp8ch0RADU93SqeE33sjQ7x9s")
 
 
 # Bot settings
@@ -31,9 +31,9 @@ MELCOW_VID = environ.get("MELCOW_VID", "https://telegra.ph/file/451f038b4e7c2ddd
 SPELL_IMG = environ.get("SPELL_IMG", "https://te.legra.ph/file/15c1ad448dfe472a5cbb8.jpg")
 
 # Admins, Channels & Users
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001807254628'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002248314369'))
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6643691556').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002004346552 -1001863861150').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002248314369').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 
@@ -41,7 +41,7 @@ AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 # if REQUEST_TO_JOIN_MODE is true then force subscribe work like request to join fsub, else if false then work like normal fsub.
 REQUEST_TO_JOIN_MODE = bool(environ.get('REQUEST_TO_JOIN_MODE', False)) # Set True Or False
 TRY_AGAIN_BTN = bool(environ.get('TRY_AGAIN_BTN', False)) # Set True Or False
-auth_channel = environ.get('AUTH_CHANNEL', '-1002202920772') # give your force subscribe channel id here else leave it blank
+auth_channel = environ.get('AUTH_CHANNEL', '-1002248314369') # give your force subscribe channel id here else leave it blank
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 reqst_channel = environ.get('REQST_CHANNEL_ID', '')
 REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_channel) else None
@@ -96,15 +96,15 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 # Token Verification Info :
 VERIFY = bool(environ.get('VERIFY', True))
 VERIFY_SECOND_SHORTNER = bool(environ.get('VERIFY_SECOND_SHORTNER', False))
-VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'inshorturl.com')
-VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', '8d32c9e87c50c10371bb3b00d386a73ee9b6d53c')
+VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'easysky.in')
+VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', 'af77f68713ff5ec1e9e7a2b843cc29e85ceb855a')
 # if verify second shortner is True then fill below url and api
-VERIFY_SND_SHORTLINK_URL = environ.get('VERIFY_SND_SHORTLINK_URL', 'inshorturl.com')
-VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', '8d32c9e87c50c10371bb3b00d386a73ee9b6d53c')
+VERIFY_SND_SHORTLINK_URL = environ.get('VERIFY_SND_SHORTLINK_URL', 'easysky.in')
+VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', 'af77f68713ff5ec1e9e7a2b843cc29e85ceb855a')
 VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/aisedownloadkaro/21')
 
 # Shortlink Info
-SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', True))
+SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', False))
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'inshorturl.com')
 SHORTLINK_API = environ.get('SHORTLINK_API', '8d32c9e87c50c10371bb3b00d386a73ee9b6d53c')
 
