@@ -104,7 +104,7 @@ VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', 'a4475ca5672a
 VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/VerifyAiseKaro/5')
 
 # Shortlink Info
-SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', True))
+SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', False))
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'inshorturl.com')
 SHORTLINK_API = environ.get('SHORTLINK_API', 'a4475ca5672a31d923b7947ca2d2e7cacd5fd5f8')
 
