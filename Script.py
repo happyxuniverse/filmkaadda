@@ -35,7 +35,7 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
  ╭━━━━━━━━╮
     Premium Plans
-  • ₹10 - 1 day 
+  • ₹5 - 1 day 
   • ₹19 - 1 Week 
   • ₹29 - 1 Month
   • ₹79 - 3 Months
