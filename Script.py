@@ -231,7 +231,7 @@ Nᴀᴍᴇ - {}"""
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<a href="https://t.me/FilmKaAddaOfficial">{file_caption}</a>
+    CAPTION = """<a href='https://t.me/FilmKaAddaOfficial'>{file_caption}</a>
     
 @FilmKaAddaOfficial
 @FilmKaAdda_2"""
