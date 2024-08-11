@@ -233,8 +233,8 @@ Nᴀᴍᴇ - {}"""
 
     CAPTION = """<a href='https://t.me/FilmKaAddaOfficial'>{file_caption}</a>
 
-    @FilmKaAddaOfficial
-    @FilmKaAdda_2
+➥ @FilmKaAddaOfficial
+➥ @FilmKaAdda_2
     """
     
     IMDB_TEMPLATE_TXT = """
