@@ -69,10 +69,10 @@ QRR = (environ.get('QRR', 'https://graph.org/file/0e594a3e050695b927752.jpg'))
 OWNER_USERNAME = environ.get('OWNER_USERNAME', 'filmmakerhappy') # owner username without @
 
 # Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/FilmKaAddaOfficial')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/FilmKaAddaOfficial')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/FilmKaAdda0fficial')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/FilmKaAdda0fficial')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/VerifyAiseKaro/5')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'FilmKaAddaOfficial') # Support Chat Link Without https:// or @
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'FilmKaAdda0fficial') # Support Chat Link Without https:// or @
 
 # True Or False
 AI_SPELL_CHECK = bool(environ.get('AI_SPELL_CHECK', True))
