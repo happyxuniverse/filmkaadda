@@ -414,7 +414,7 @@ async def start(client, message):
                         InlineKeyboardButton("Remove Ads ", callback_data='hey')
                     ]]
                     await message.reply_text(
-                        text="<b>You are not verified !\nKindly verify to continue !</b>",
+                        text=script.VERIFY.format(message.from_user.mention if message.from_user else message.chat.title),
                         protect_content=True,
                         reply_markup=InlineKeyboardMarkup(btn)
                     )
@@ -482,7 +482,7 @@ async def start(client, message):
                         InlineKeyboardButton('Remove Ads ', callback_data='hey')
                     ]]
                     await message.reply_text(
-                        text="<b>You are not verified !\nKindly verify to continue !</b>",
+                        text=script.VERIFY.format(message.from_user.mention if message.from_user else message.chat.title),
                         protect_content=True,
                         reply_markup=InlineKeyboardMarkup(btn)
                     )
@@ -549,7 +549,7 @@ async def start(client, message):
                 InlineKeyboardButton('Remove Ads', callback_data='hey')
             ]]
             await message.reply_text(
-                text="<b>You are not verified !\nKindly verify to continue !</b>",
+                text=script.VERIFY.format(message.from_user.mention if message.from_user else message.chat.title),
                 protect_content=True,
                 reply_markup=InlineKeyboardMarkup(btn)
             )
